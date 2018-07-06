@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.js"></script> <!-- Aqui a biblioteca JQuery -->
+    <script type="text/javascript" src="btnIncorporados.js"></script> <!-- Aqui chamamos o arquivo JS que deverá trazer os botões criados -->
+    <script type="text/javascript" src="linksIncorporados.js"></script> <!-- Aqui chamamos o arquivo JS que deverá trazer os links criados -->
+    <script type="text/javascript" src="infoIncorporados.js"></script> <!-- Aqui chamamos o arquivo JS que deverá trazer as informações criadas com span -->
+    <script type="text/javascript" src="elementocomPropsIncorporados.js"></script> <!-- Aqui chamamos o arquivo JS que deverá trazer as informações criadas com props -->
+    <title>Recebe elementos de outra página</title>
+</head>
+
+<body>
+    <!-- Aqui será chamado os elementos dos botões (podendo ser chamado mais de uma vez) -->
+    <btnFacebook/>
+    <br>
+    <btnTwitter/>
+    <br>
+    <btnYouTube/>
+    <br>
+    <btnLinkedin/>
+    <br>
+    <btnInstagram/>
+
+    <!-- Aqui será chamado os elementos dos link (podendo ser chamado mais de uma vez) -->
+    <linkFacebook/>
+    <br>
+    <linkTwitter/>
+    <br>
+    <linkYouTube/>
+    <br>
+    <linkLinkedin/>
+    <br>
+    <linkInstagram/>
+
+    <!-- Aqui será chamado os elementos dos info (podendo ser chamado mais de uma vez) -->
+    <infoFacebook/>
+    <br>
+    <infoTwitter/>
+    <br>
+    <infoYouTube/>
+    <br>
+    <infoLinkedin/>
+    <br>
+    <infoInstagram/>
+
+    <!-- Aqui será chamado os elementos com props (podendo ser chamado mais de uma vez) -->
+    
+    <!-- Modelo do elemento sendo usado com todas as props criadas -->
+    <btn 
+        data-class="btn btn-default" 
+        data-color="#fff" 
+        data-bgColor="#000" 
+        data-title="Span modelo 1" 
+    />
+    
+    <!-- Modelo do elemento sendo usado apenas com as classe do CSS -->
+    <btn 
+        data-class="btn btn-primary" 
+        data-title="Span modelo 2" 
+    />
+
+    <!-- Modelo do elemento sendo usado sem classe CSS -->
+    <btn 
+        data-color="#fff" 
+        data-bgColor="blue" 
+        data-title="Span modelo 3" 
+    />
+</body>
+
+</html>
