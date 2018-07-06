@@ -41,3 +41,9 @@ Links são sempre usados em diversas páginas e muitas vezes sendo repetidos, on
 Assim como os links usados com `<a href`, temos o `<span`, `<code`, `<pre` e qualquer outro elemento que pode ser criado como padrão e ser chamado em outras páginas, com ou sem props.
 
 *** 
+
+###### Autor 
+Rahel William
+
+###### License
+ISC
