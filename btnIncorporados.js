@@ -1,3 +1,6 @@
+// "author": "Rahel William"
+//  "license": "ISC"
+
 $(document).ready(function() {
     // Função para chamar na tag (ex: <btnFacebook>), o elemento que estiver no .load da Página + Div (ex: pagina btnIncorporados.html e a id será #btnFacebook)
     $(function() {
