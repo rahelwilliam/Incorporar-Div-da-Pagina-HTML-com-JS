@@ -1,3 +1,6 @@
+// "author": "Rahel William"
+//  "license": "ISC"
+
 $(document).ready(function() {
     // Função para chamar outros elementos (ex: <infoFacebook>), o elemento que estiver no .load da Página + Div (ex: pagina infoIncorporados.html e a id será #infoFacebook)
     $(function() {
