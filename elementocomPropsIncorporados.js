@@ -1,3 +1,6 @@
+// "author": "Rahel William"
+//  "license": "ISC"
+
 $(document).ready(function() {
     // Função para chamar outros elementos e possibilitando adicionar props neles, nesse caso, o elemento será criado direto, sem a necessidade de usar uma página html para o mesmo
     $("btn").each(function() {
